@@ -1,0 +1,58 @@
+C++学习建议
+============
+
+C++缺点之一，是相对许多语言复杂，而且难学难精。许多人说学习C语言只需一本K&R《C程序设计语言》即可，但C++书籍却是多不胜数。我是从C进入C++，皆是靠阅读自学。在此分享一点学习心得。个人认为，学习C++可分为4个层次：
+
+第一层次，C++基础
+--------------------
+挑选一本入门书籍：
+
+:book_begin:
+title:C++ Primer中文版|author:Stanley B.Lippman|score:9.2|img:http://wbooks.u.qiniudn.com/201212/04dec2012231101_s.jpg|amazon:http://www.amazon.cn/C-Primer%E4%B8%AD%E6%96%87%E7%89%88-%E6%9D%8E%E6%99%AE%E6%9B%BC/dp/B00114DX08?SubscriptionId=AKIAJOMEZLLKFEWYT4PQ&tag=z08-23&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00114DX08|douban:http://book.douban.com/subject/1767741/
+《C++大学教程》
+《C++程序设计语言》
+:book_end:
+
+一般C++课程也止于此，另外《C++ 标准程序库》及《The C++ Standard Library Extensions》可供参考；
+
+第二层次，正确高效地使用C++
+----------------------------------------
+此层次开始必须自修，阅读过以下书籍，才适宜踏入专业C++开发之路：
+
+:book_begin:
+title:Effective C++中文版|author:[美] Scott Meyers|score:9.2|img:http://wbooks.u.qiniudn.com/201212/04dec2012231700_s.jpg|amazon:http://www.amazon.cn/Effective-C-%E4%B8%AD%E6%96%87%E7%89%88-Scott-Meyers/dp/B001130D9I?SubscriptionId=AKIAJOMEZLLKFEWYT4PQ&tag=z08-23&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B001130D9I|douban:http://book.douban.com/subject/1231590/
+title:More Effective C++中文版|author:迈耶斯|score:8.7|img:http://wbooks.u.qiniudn.com/201212/15dec2012201807_s.jpg|amazon:http://www.amazon.cn/More-Effective-C-%E8%BF%88%E8%80%B6%E6%96%AF/dp/B001166KM4?SubscriptionId=AKIAJOMEZLLKFEWYT4PQ&tag=z08-23&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B001166KM4|douban:http://book.douban.com/subject/2078636/
+《Exceptional C++》
+《More Exceptional C++》
+title:Effective STL中文版|author:[美] 梅耶 (Meyers,S.)|score:0.0|img:http://wbooks.u.qiniudn.com/201305/17may2013154947_s.jpg|amazon:http://www.amazon.cn/Effective-STL%E4%B8%AD%E6%96%87%E7%89%88-50%E6%9D%A1%E6%9C%89%E6%95%88%E4%BD%BF%E7%94%A8STL%E7%9A%84%E7%BB%8F-%E8%AF%B7%E4%B9%B0%E5%AE%B6%E8%87%AA%E6%9F%A5/dp/B00A4U4BU6?SubscriptionId=AKIAJOMEZLLKFEWYT4PQ&tag=z08-23&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00A4U4BU6|douban:http://book.douban.com/subject/24534868/
+title:C++编程规范|author:（美）Herb Sutter, Andr|score:8.2|img:http://wbooks.u.qiniudn.com/201411/27nov2014223140_s.jpg|amazon:http://www.amazon.cn/C-%E7%BC%96%E7%A8%8B%E8%A7%84%E8%8C%83-101%E6%9D%A1%E8%A7%84%E5%88%99-%E5%87%86%E5%88%99%E4%B8%8E%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5-%E8%90%A8%E7%89%B9/dp/B004CF9QXG?SubscriptionId=AKIAJOMEZLLKFEWYT4PQ&tag=z08-23&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B004CF9QXG|douban:http://book.douban.com/subject/1480481/
+:book_end:
+
+第三层次，深入了解C++
+-----------------------
+关于全局问题可读：
+:book_begin:
+《深入探索C++对象模型》
+《Imperfect C++》
+title:C++沉思录|author:Andrew Koenig|score:8.8|img:http://wbooks.u.qiniudn.com/201305/15may2013163532_s.jpg|amazon:http://www.amazon.cn/C%E5%92%8CC-%E7%BB%8F%E5%85%B8%E8%91%97%E4%BD%9C%E2%80%A2C-%E6%B2%89%E6%80%9D%E5%BD%95-Ruminations-on-C-Andrew-Koenig/dp/B0012NMEXU?SubscriptionId=AKIAJOMEZLLKFEWYT4PQ&tag=z08-23&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B0012NMEXU|douban:http://book.douban.com/subject/2970056/
+title:STL源码剖析|author:侯捷|score:8.5|img:http://wbooks.u.qiniudn.com/201212/15dec2012152134_s.jpg|amazon:http://www.amazon.cn/STL%E6%BA%90%E7%A0%81%E5%89%96%E6%9E%90-%E4%BE%AF%E6%8D%B7/dp/B00116JFS0?SubscriptionId=AKIAJOMEZLLKFEWYT4PQ&tag=z08-23&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B00116JFS0|douban:http://book.douban.com/subject/1110934/
+:book_end:
+
+要挑战智商，可看关于模版及模版元编程的书籍:
+:book_begin:
+《C++ Templates》
+title:C++设计新思维|author:(美)Andrei Alexandres|score:8.9|img:http://wbooks.u.qiniudn.com/201411/27nov2014223549_s.jpg|amazon:http://www.amazon.cn/STL%E6%89%A9%E5%B1%95%E6%8A%80%E6%9C%AF%E6%89%8B%E5%86%8C-%E9%9B%86%E5%90%88%E5%92%8C%E8%BF%AD%E4%BB%A3%E5%99%A8-%E5%A8%81%E5%B0%94%E6%A3%AE/dp/B001NEHOOW?SubscriptionId=AKIAJOMEZLLKFEWYT4PQ&tag=z08-23&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B001NEHOOW|douban:http://book.douban.com/subject/1119904/
+《C++模版元编程》
+:book_end:
+
+第四层次，研究C++
+--------------------
+阅读以下书籍以及C++标准文件《ISO/IEC 14882:2003》、C++标准委员会的提案书和报告书、关于C++的学术文献。
+:book_begin:
+title:C++语言的设计和演化|author:[美] Bjarne Stroustru|score:8.8|img:http://wbooks.u.qiniudn.com/201409/17sep2014121056_s.jpg|amazon:|douban:http://book.douban.com/subject/1096216/
+title:编程的本质|author:Alexander Stepanov|score:8.3|img:http://wbooks.u.qiniudn.com/201411/27nov2014223757_s.jpg|amazon:http://www.amazon.cn/%E7%BC%96%E7%A8%8B%E7%9A%84%E6%9C%AC%E8%B4%A8-%E6%96%AF%E7%89%B9%E6%BD%98%E8%AF%BA%E5%A4%AB/dp/B003FMV8E2?SubscriptionId=AKIAJOMEZLLKFEWYT4PQ&tag=z08-23&linkCode=xm2&camp=2025&creative=165953&creativeASIN=B003FMV8E2|douban:http://book.douban.com/subject/4722718/
+:book_end:
+
+
+文章来源：http://www.cnblogs.com/miloyip/archive/2010/09/17/behind_cplusplus.html
+
